@@ -1,0 +1,14 @@
+@import 'src/styles.scss';
+
+.container {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px black;
+  padding: 30px;
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: $font-family;
+  }
+}
