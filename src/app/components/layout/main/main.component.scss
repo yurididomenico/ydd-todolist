@@ -1,0 +1,56 @@
+@import 'src/styles.scss';
+
+$gap-cards: 20px;
+
+.container {
+  padding: 30px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: $gap-cards;
+
+  .carta {
+    background-color: $background-light;
+    width: calc(100% / 2 - 20px);
+    aspect-ratio: 1 / 1;
+    padding-top: 10px;
+    border-radius: 10%;
+    border: 2px solid black;
+    box-shadow: 7px 7px 0 black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .fa-solid {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-family: $font-family;
+      font-weight: 700;
+    }
+  }
+
+  .todoList {
+    background-color: #f1c40f;
+  }
+
+  .func2 {
+    background-color: #e77e23 ;
+  }
+  .func3 {
+    background-color: #e891bd ;
+  }
+  .func4 {
+    background-color: #9c59b8;
+  }
+  .func5 {
+    background-color: #34acbc ;
+  }
+  .func6 {
+    background-color: #e64a1f;
+  }
+}
